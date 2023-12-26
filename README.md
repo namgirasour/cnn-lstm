@@ -22,7 +22,7 @@ The model was trained for 5 epochs, taking approximately 40 hours. Training and 
 ## Results
 To assess the model’s performance, precision, recall, F-1, and accuracy scores are evaluated in two sets:
 - **Overall results of 43 classes**: Lower precision, recall, and F-1 score, with high accuracy. Indicates predominant negative case prediction and failure to recognize positive cases, likely due to dataset imbalance.
-!(https://drive.google.com/file/d/1bEXEPTzJKvtdYu7tE11ip28-eiknHOE8/view?usp=sharing)
+![result](https://drive.google.com/file/d/1bEXEPTzJKvtdYu7tE11ip28-eiknHOE8/view?usp=sharing)
 - **Results of top 10 classes with sufficient data**: Higher precision, recall, and F-1 score, with moderately low accuracy. Indicates better positive case identification but more false positives.
 
 ## Conclusion
