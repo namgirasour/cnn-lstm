@@ -21,8 +21,10 @@ The model was trained for 5 epochs, taking approximately 40 hours. Training and 
 
 ## Results
 To assess the model’s performance, precision, recall, F-1, and accuracy scores are evaluated in two sets:
-- **Overall results of 43 classes**: Lower precision, recall, and F-1 score, with high accuracy. Indicates predominant negative case prediction and failure to recognize positive cases, likely due to dataset imbalance.
-- **Results of top 10 classes with sufficient data**: Higher precision, recall, and F-1 score, with moderately low accuracy. Indicates better positive case identification but more false positives.
+- **Overall results of 43 classes**: Precision: 0.23, Recall: 0.39, F-1: 0.25, Accuracy: 0.82
+  - Lower precision, recall, and F-1 score, with high accuracy. Indicates predominant negative case prediction and failure to recognize positive cases, likely due to dataset imbalance.
+- **Results of top 10 classes with sufficient data**: Precision: 0.43, Recall: 0.80, F-1: 0.52, Accuracy: 0.62
+  - Higher precision, recall, and F-1 score, with moderately low accuracy. Indicates better positive case identification but more false positives.
 
 ## Conclusion
 The CNN-LSTM hybrid model shows promise in video event identification and classification, especially in well-represented classes. Data scarcity and underrepresentation in the dataset are significant challenges, affecting overall performance. This project highlights the potential for further research and development with the full VidLife dataset.
